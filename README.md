@@ -41,7 +41,9 @@ Post with tags get the following permalink: `/category1/category2/title`
 These categories are implemented right now:
  
 - release
+- announcement
 - article
+- download
  
 New categories can be implemented via an extra HTML page named `categoryName.html` and placed in the root folder of this repository.
 It should look like this:
