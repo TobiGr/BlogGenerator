@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "C33C presentation"
-date:       2017-12-09 11:44:28 +0200
-categories: [article, announcement, download]
+title:      "Presentation on NewPipe "
+date:       2017-12-18 03:00:00 +0100
+categories: [talk, download]
 author:     Tobias Groza
 ---
 
