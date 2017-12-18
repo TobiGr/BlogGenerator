@@ -1,9 +1,9 @@
 ---
-layout:     post
-title:      "Presentation on NewPipe "
-date:       2017-12-18 03:00:00 +0100
+layout: post
+title: Presentation on NewPipe during 33C3
+date: 2017-12-18 03:00:00 +0100
 categories: [talk, download]
-author:     Tobias Groza
+author: Tobias Groza
 ---
 
 On Dec 28, 2016 Christian Schabesberger, initiator and maintainer of NewPipe, presented a talk at the FSFE Assembly during 33rd *Chaos Communication Congress (33C3)* where he showed Google free Android and YouTube alternatives.
