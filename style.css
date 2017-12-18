@@ -245,6 +245,10 @@ a:hover, a:focus {
     color: white;
     line-height: 14px;
 }
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    background: none;
+    font-weight: bold;
+}
 .navbar-toggle {
     padding-top: 17px;
     padding-bottom: 17px;
@@ -645,8 +649,9 @@ strong.extra {
     position: relative;
 }
 .border-box:hover {
-    background: #f3eff2;
-    border: 3px solid #AA1D1D;
+    background: #E2DEE0;
+    border: 3px solid white;
+    border-right-width: 2px;
     padding: 14px;
 }
 .border-box .categories {
@@ -684,15 +689,8 @@ strong.extra {
         right: -18px;
         bottom: -3px;
         width: 18px;
-        #background: linear-gradient(to right, #f3eff2 0%, white 100%);
-        background: aa1d1d;
-        border-top: 3px solid #AA1D1D;
-        border-bottom: 3px solid #AA1D1D;
-    }
-    .border-box.anchor-right-full-parent:hover {
-        -webkit-box-shadow: inset -6px 0px 4px -4px rgba(0,0,0,0.5);
-        -moz-box-shadow: inset -6px 0px 4px -4px rgba(0,0,0,0.5);
-        box-shadow: inset -6px 0px 4px -4px rgba(0,0,0,0.5);
+        border-top-width: 3px;
+        border-bottom-width: 3px;
     }
     .border-box:hover .anchor-right-full-light {
         background: transparent;

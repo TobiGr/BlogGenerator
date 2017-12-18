@@ -42,7 +42,7 @@ These categories are implemented right now:
  
 - release
 - announcement
-- article
+- talk
 - download
  
 New categories can be implemented via an extra HTML page named `categoryName.html` and placed in the root folder of this repository.
