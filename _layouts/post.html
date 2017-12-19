@@ -1,5 +1,5 @@
 ---
-layout: with-sidebar-post
+layout: blog_with-sidebar-post
 ---
 <article class="post single-article" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -22,12 +22,9 @@ layout: with-sidebar-post
     <div class="post-categories">
         See also: 
         {% for category in page.categories %}
-        <a href="{{ site.baseurl}}/{{ category | slugize }}"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;{{ category }}</a>
+        <a href="{{ site.baseurl}}/blog/{{ category | slugize }}"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;{{ category }}</a>
         {% unless forloop.last %}&nbsp;|&nbsp;{% endunless %}
         {% endfor %}
     </div>
 
-{% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-{% endif %}
 </article>
