@@ -10,7 +10,7 @@ On Dec 28, 2016 Christian Schabesberger, initiator and maintainer of NewPipe, pr
 
 The talk showcased the basics of NewPipe, highlighting the reasons why not to use the proprietary YouTube API Google provides on Android, and how this functionality could be replaced with a technique called web scraping.
 
-If you want more information about this presentation, feel free to view the [slides]({{ site.baseurl }}/pdf/NewPipe_presentation.pdf).
+If you want more information about this presentation, feel free to view the [slides]({{ site.baseurl }}/blog/pdf/NewPipe_presentation.pdf).
 
 Christian also announced a new architecture of the software projects, splitting up NewPipe's core component, the [extractor](https://github.com/TeamNewPipe/NewPipeExtractor), and the user interface. This allows third party projects to make use of NewPipe's extraction component, which is then no longer dependent on Android code. Also, it makes implementing user interfaces for other platforms much easier. Furthermore, it allows for adding support for other services to the roadmap.
 
